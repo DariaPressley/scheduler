@@ -19,6 +19,7 @@ The event stays on the page after refresh.
 
 ## Page
 
+https://dariapressley.github.io/scheduler/
 
 ## Credits
 
