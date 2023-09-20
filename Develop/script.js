@@ -26,7 +26,6 @@ $(document).ready(function () {
     var currentDay = currentDate.toLocaleDateString(undefined, options);
     $("#currentDay").text(currentDay);
   }
-
   updateCurrentDay();
   updateHourlyBlocks();
 });
@@ -48,3 +47,5 @@ $(".saveBtn").on("click", function () {
   var hour = parseInt($(this).closest(".row").attr("id").replace("hour-", ""));
   saveText(hour);
 });
+
+
